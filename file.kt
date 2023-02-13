@@ -24,7 +24,9 @@ private fun Newfile(path: String): Any {
 }
 
 private fun prepath(): String {
+
     var path = "C:\\Users\\injae"
+
     while (true){
         val file = File(path)
         println(path)
